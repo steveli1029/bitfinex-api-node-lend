@@ -1,5 +1,5 @@
-const apiKey = require("./config/apiKey").apiKey;
-const apiSecret = require("./config/apiKey").apiSecret;
+const apiKey = require("IsYwwilO2VPY03yb6hvNNILoTRac9nlIoqIqVsEQO5h").apiKey;
+const apiSecret = require("K1EfZVqhXxsK6xo4jDXPyBSJFQHB1UMyK7AG2EFG98r").apiSecret;
 const BFX = require("bitfinex-api-node");
 const Table = require("cli-table2");
 const bfx = new BFX({
@@ -16,7 +16,7 @@ const bfxRest1 = bfx.rest(1, { transform: true });
 
 const offer_minimum = 50.0;
 const offer_currency = 'BTC';
-const lending_start_date = '2019-09-10'
+const lending_start_date = '2019-10-22'
 
 // Get funding Wallets balance,okay
 function get_funding_balance(currency) {
